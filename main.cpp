@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 // import std so that you print using cout instead std:: cout
 
@@ -18,6 +19,11 @@ int main() {
 
     cout << result;
 
+    string mystring;
+    mystring = "\nthis is the initial string content";
+    cout << mystring;
+    mystring = "\nThis is a different string content";
+    cout << mystring;
 
     return 0;
 }
